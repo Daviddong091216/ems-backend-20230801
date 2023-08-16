@@ -5,7 +5,7 @@ import com.example.ems.entity.Employee;
 
 public class EmployeeMapper {
     public static EmployeeDto mapToEmployeeDto(Employee employee){
-        return new Employee(
+        return new EmployeeDto(
           employee.getId(),
           employee.getFirstName(),
           employee.getLastName(),
